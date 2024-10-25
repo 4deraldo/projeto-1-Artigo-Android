@@ -157,9 +157,10 @@ picture > img {
   }
 
   & ul {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 100px 10px 20px;
+    list-style-type: "\2714\0020\0020";
+    columns: 2;
+    list-style-position: inside;
+    padding: 20px;
   }
 
   & a {
